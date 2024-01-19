@@ -21,5 +21,7 @@ After running through 12 experiments that tested various CNN architectures and h
 
 
 ![](/images/_golf_conf_matrix.png)
+
+
 ![](/images/golf_results.png)
 ![](/images/_golf_accuracy_loss.png)
