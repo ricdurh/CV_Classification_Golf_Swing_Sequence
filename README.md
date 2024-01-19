@@ -17,7 +17,7 @@ events are included: 1) 'address', 2) 'toe-up', 3) 'mid-backswing', 4) 'top', 5)
 
 
 ## Results
-After running through 12 experiments that tested various CNN architectures and hyperparameters (layers, neurons, dropout rates, kernel size, regularization, VGG, and data augmentation), the top-performing model was a VGG model that incorporated data augmentation. This had two series of convolutional layers with the first layer set at 60 neurons and a kernel size of (3, 3) and a dropout rate of 0.5 throughout. The model had the best performance of all the models across validation and test loss and accuracy. 
+After running through 12 experiments that tested various CNN architectures and hyperparameters (layers, neurons, dropout rates, kernel size, regularization, VGG, and data augmentation), the top-performing model was a VGG model that incorporated data augmentation. This had two series of convolutional layers with the first layer set at 60 neurons and a kernel size of (3, 3) and a dropout rate of 0.5 throughout. The model had the best performance of all the models across validation and test loss and accuracy with a testing accuracy of 90.7% and testing loss of 0.281. 
 
 ![](/images/_golf_conf_matrix.png)
 
