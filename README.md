@@ -17,20 +17,9 @@ events are included: 1) 'address', 2) 'toe-up', 3) 'mid-backswing', 4) 'top', 5)
 
 
 ## Results
-After running through 12 experiments that tested various CNN architectures and hyperparameters, the top performing model was a VGG model that incorporated data augmentated. This had two series of convolutional layers with the first layer set at 60 neurons and a kernel size of (3, 3) and a dropout rate 
-of 0.5 throughout. The model had the best performance of all the models across validation and test loss and accuracy.
+After running through 12 experiments that tested various CNN architectures and hyperparameters, the top performing model was a VGG model that incorporated data augmentated. This had two series of convolutional layers with the first layer set at 60 neurons and a kernel size of (3, 3) and a dropout rate of 0.5 throughout. The model had the best performance of all the models across validation and test loss and accuracy. Below are the 
 
 
-
-The dataset has over 1400 golf swings 
-
-
-
-The video clips are preprocessed and cleaned to break the images down to 10 sequences of the golf swing. The first and last sequence are eliminated to remove
-the time on the video before and after the swing begins. 
-
-This project relies on the sample of 1,400 
-
-## Methods
-This analysis looks into finding the best performing model to classify the correct sequence of the golf swing. The first step is preprocessing the data from a video clip to a sequence of images. This step relied n the code shared from Marc Marais on [Kaggle](https://www.kaggle.com/code/marcmarais/experiment-1-three-viewing-angles-only).
-The dataset has over 1400 golf swings 
+![](/images/_golf_conf_matrix.png)
+![](/images/golf_results.png)
+![](/images/_golf_accuracy_loss.png)
