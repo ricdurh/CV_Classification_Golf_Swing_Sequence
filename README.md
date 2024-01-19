@@ -27,4 +27,5 @@ As shown in the confusion matrix above, the most challenging event to classify i
 
 ![](/images/_golf_accuracy_loss.png)
 
+
 ![](/images/golf_classification_report.png)
